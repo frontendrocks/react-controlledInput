@@ -15,6 +15,10 @@ const AddListUsers = () => {
         setUsers(updatedUser);
         setName('');
     }
+    const removeUser = (id) => {
+        const updatedUsers = users.filter((res) => res.id !== id);
+        setUsers(updatedUsers)
+    }
 
   return (
     <div>
@@ -28,7 +32,7 @@ const AddListUsers = () => {
         <button type='submit'>Add</button>
           </form>
           <ul>
-             { users.map(ele => <li key={ele.id}>{ele.name}</li>)}
+             { users.map(ele => <li key={ele.id}>{ele.name}<button onClick={() => removeUser(ele.id)}>Remove</button></li>)}
           </ul>
     </div>
   )

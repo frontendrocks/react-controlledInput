@@ -2,10 +2,11 @@
 import './App.css'
 // import Users from './Users';
 // import ControlledInput from './ControlledInput';
-import AddListUsers from './AddListUsers'
+// import AddListUsers from './AddListUsers'
+// import MultipleInput from './MultipleInput';
 // import {books} from './data.js';
 // import Counter from './Counter'
-
+import FormDataInput from './FormDataInput'
 
 function App() {
 
@@ -17,8 +18,10 @@ function App() {
 
   return (
     <>
+      <FormDataInput />
+      {/* <MultipleInput /> */}
       {/* <ControlledInput /> */}
-      <AddListUsers />
+      {/* <AddListUsers /> */}
       {/* <Users /> */}
       {/* <Counter /> */}
       {/* <h2>React App</h2>
