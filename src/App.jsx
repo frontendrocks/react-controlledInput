@@ -1,12 +1,9 @@
 
 import './App.css'
-// import Users from './Users';
-// import ControlledInput from './ControlledInput';
-// import AddListUsers from './AddListUsers'
-// import MultipleInput from './MultipleInput';
+
 // import {books} from './data.js';
-// import Counter from './Counter'
-import FormDataInput from './FormDataInput'
+
+import Toggle from './customHook/Toggle';
 
 function App() {
 
@@ -18,12 +15,8 @@ function App() {
 
   return (
     <>
-      <FormDataInput />
-      {/* <MultipleInput /> */}
-      {/* <ControlledInput /> */}
-      {/* <AddListUsers /> */}
-      {/* <Users /> */}
-      {/* <Counter /> */}
+      <Toggle />
+
       {/* <h2>React App</h2>
       {books.map((book) => {
         // const { author, img, title, id } = book;
