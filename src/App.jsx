@@ -2,7 +2,8 @@
 import './App.css'
 
 // import {books} from './data.js';
-import Users from './UserCustomHook/Users'
+import CounterApp from './ComponentPerformance/Counters';
+// import Users from './UserCustomHook/Users'
 // import Toggle from './customHook/Toggle';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
 
   return (
     <>
+      <CounterApp />
       {/* <Toggle /> */}
-     <Users />
+     {/* <Users /> */}
       {/* <h2>React App</h2>
       {books.map((book) => {
         // const { author, img, title, id } = book;

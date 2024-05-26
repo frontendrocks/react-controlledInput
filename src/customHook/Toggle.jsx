@@ -1,8 +1,6 @@
-
 import useToggle from './customHookToggle';
 
 const Toggle = () => {
-    
   const {show, toggleHideShow} = useToggle(false)
     // useEffect(toggleHideShow(), [])
   return (

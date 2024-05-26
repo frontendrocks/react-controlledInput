@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 
 const useToggle = (defaultValue) => {
-
     const [show, setShow] = useState(defaultValue);
-
     const toggleHideShow = () => {
         setShow(!show);
     }
